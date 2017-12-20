@@ -20,3 +20,7 @@ Check the last vertion(5.5.1)
 >npm install 
 
 *dowload all packege in packege.json
+
+>browser-sync start --server--files "*.*"
+
+Start to use only browser-sync

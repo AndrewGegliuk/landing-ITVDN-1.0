@@ -1,0 +1,33 @@
+.title{
+  margin-bottom: 0px;
+  text-align: center;
+
+  &__herder{
+    margin: 0;
+    font-size: 2.25rem;
+    font-family: $ff-main-bold;
+    line-height: 1;
+  }
+
+  &__text{
+    font-size: 1.12rem;
+    font-family: $ff-main-light;
+  }
+
+  &--with-line{
+    position: relative;
+
+    &:after{
+      @include centered-x();
+
+      content: '';
+      width: 47px;
+      height: 5px;
+      bottom: -16px;
+      background: #000000;
+    }
+
+
+
+  }
+}

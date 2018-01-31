@@ -7,7 +7,13 @@
 @import "global/vars";
 @import "global/layout";
 @import "global/button";
+@import "global/mixin";
+@import "global/icons";
 
 
 //section
 @import "section/header";
+@import "section/hero";
+@import "section/about";
+@import "section/title";
+@import "section/approach";

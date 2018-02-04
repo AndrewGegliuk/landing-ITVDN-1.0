@@ -33,6 +33,10 @@
     .fa{
         font-size: 2.5rem;
     }
+
+    &:hover{
+        cursor: pointer;
+    }
 }
 
 
@@ -46,6 +50,16 @@
     color: #828282;
     text-align: center;
     background-color: #fff;
+    display: none;
+    
+
+
+    @media(max-width: 850px){
+        width: 95%;
+        padding: 30px;
+     } 
+
+
 
     &__container{
         padding-top: 30px;
@@ -98,6 +112,10 @@
         border: 1px solid #d8d8d8;
         border-radius: 3px;
         font-size: 0.875rem;
+
+        @media(max-width: 850px){
+            width: 95%;
+         }
 
 
     }

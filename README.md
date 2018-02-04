@@ -15,7 +15,7 @@ Check the last vertion(5.5.1)
 
 ## Instruction:
 
-*Git repository: https://github.com/AndrewGegliuk/landing-ITVDN.git
+*Git repository: https://github.com/AndrewGegliuk/landing-ITVDN-1.0.git
 
 >npm install 
 
